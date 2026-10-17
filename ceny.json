@@ -1,10 +1,25 @@
 
 {
-  "version": "1.0",
-  "updated": "2026-10-17",
-  "stores": {
-    "Dino": {},
-    "Lidl": {}
+  "schema": 1,
+  "updatedAt": "2026-10-17",
+  "prices": {
+    "dino": {
+      "20": {
+        "price": 3.99,
+        "date": "2026-10-17",
+        "validUntil": "2026-10-20",
+        "verified": true,
+        "source": "Gazetka Dino: ziemniaki 4 kg, oferta promocyjna"
+      }
+    },
+    "lidl": {
+      "24": {
+        "price": 3.89,
+        "date": "2026-10-17",
+        "validUntil": "2026-10-17",
+        "verified": true,
+        "source": "Gazetka Lidl: brokuly 500 g, oferta promocyjna"
+      }
+    }
   }
 }
-      
